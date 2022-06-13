@@ -1,9 +1,9 @@
 //最大値・最小値を引数に持つ関数
-function getRandom(min, max) {
+const getRandom = (min, max) => {
   return Math.floor( Math.random() * (max + 1 - min) ) + min;
 }
 
-function handleClickButton() {
+const handleClickButton = () => {
   const main = document.getElementById('main');
   const result = document.getElementById('result');
   const destination = document.getElementById('destination');
