@@ -1,5 +1,7 @@
 // constant.jsで設定した項目名を指定
-const itemType = 'LUNCH';
+const itemType = 'DINNER';
+// const itemType = 'LUNCH';
+// const itemType = 'PREFECTURES';
 const target = CONSTS[itemType];
 
 window.onload = () => {
